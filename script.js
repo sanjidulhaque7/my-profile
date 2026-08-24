@@ -10,8 +10,8 @@ const siteConfig = {
   tagline: "Creative visual storyteller focused on photography, videography, graphic design and digital content.",
   interests: "Photography, Videography, Cars, Design, Technology and Content Creation",
   focus: "Cinematic stills, automotive media and brand-led visual content",
-  email: "hello@sanjidhasan.com",
-  phone: "+880 1XXX-XXXXXX",
+  email: "sanjidhasan908@gmail.com",
+  phone: "+880 1968856582",
   bio: "I grew up noticing how light sits on metal, how a frame can make a quiet moment feel cinematic, and how a simple layout can give a brand its posture. That curiosity turned into a practice: photography, videography, graphic design and the kind of digital content people actually stop for.",
   bio2: "Based in Bangladesh, I work across portraits, lifestyle, automotive and brand work — stills, motion, edits and social-first pieces. The goal is always the same: images that feel considered, not noisy. If it looks expensive, it is because the craft is quiet.",
 
