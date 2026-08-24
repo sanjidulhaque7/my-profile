@@ -63,7 +63,7 @@ const siteConfig = {
 
   /* Replace image URLs with files in assets/images/ when ready */
   portfolio: [
-    { title: "Quiet Hour", category: "Photography", image: "http", desc: "Po" },
+    { title: "Tea Stall", category: "Photography", image: "https://i.pinimg.com/736x/e5/f9/75/e5f9755c9ce6b2a2af7c4bb17ee36550.jpg", desc: "Nestled directly beneath the tree is a small, traditional roadside shop made of corrugated tin, wood, and thatch" },
     { title: "Neon Transit", category: "Photography", image: "https://i.pinimg.com/1200x/d7/fd/70/d7fd70e3f239e98c1b278c06d5e4315d.jpg", desc: "A long-exposure street photography shot capturing the energy of a bustling city at night." },
     { title: "Quiet Hour", category: "Photography", image: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=900&q=80", desc: "Portrait work built on patience — skin, shadow and a face that is not performing." },
     { title: "Studio Grain", category: "Photography", image: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1400&q=80", desc: "Hands, camera and the room around the shot. Process as the picture." },
