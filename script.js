@@ -18,9 +18,9 @@ const siteConfig = {
   facebook: "https://www.facebook.com/share/1Cd28FDdFn/",
   instagram: "https://www.instagram.com/sanjidul_haque/",
   youtube: "https://www.youtube.com/@SanjidHasan0",
-  tiktok: "https://www.tiktok.com/@sanjidhasan",
+  tiktok: "https://discord.gg/",
   discord: "https://discord.gg/WcqbrS77Mm",
-  linkedin: "https://www.linkedin.com/in/sanjidhasan",
+  linkedin: "https://www.linkedin.com/in/sanjid-hasan-b62754357/",
 
   socials: [
     { key: "facebook", icon: "facebook", handle: "Sanjid Hasan", blurb: "Updates, behind-the-scenes and conversation." },
