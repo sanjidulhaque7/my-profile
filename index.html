@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#070708">
+  <title>Sanjid Hasan — Photographer, Videographer & Graphic Designer</title>
+  <meta name="description" content="Sanjid Hasan is a graphic designer, photographer, videographer and content creator from Bangladesh. Cinematic visuals, branding, automotive media and digital storytelling.">
+  <meta name="author" content="Sanjid Hasan">
+  <meta name="keywords" content="Sanjid Hasan, photographer Bangladesh, videographer, graphic designer, automotive photography, content creator">
+  <link rel="canonical" href="https://sanjidhasan.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sanjid Hasan — Photographer, Videographer & Graphic Designer">
+  <meta property="og:description" content="Creative visual storyteller focused on photography, videography, graphic design and digital content.">
+  <meta property="og:image" content="https://i.imgur.com/WrZEXa4.png">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sanjid Hasan — Photographer, Videographer & Graphic Designer">
+  <meta name="twitter:description" content="Creative visual storyteller focused on photography, videography, graphic design and digital content.">
+  <meta name="twitter:image" content="https://i.imgur.com/WrZEXa4.png">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sanjid Hasan",
+    "jobTitle": "Graphic Designer, Photographer & Videographer",
+    "description": "Creative visual storyteller focused on photography, videography, graphic design and digital content.",
+    "address": { "@type": "PostalAddress", "addressCountry": "BD" },
+    "url": "https://sanjidhasan.com/",
+    "sameAs": [
+      "https://www.instagram.com/sanjidul_haque/",
+      "https://www.youtube.com/@SanjidHasan0",
+      "https://www.facebook.com/share/1Cd28FDdFn/"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#home">Skip to content</a>
+
+  <div class="cursor" aria-hidden="true">
+    <span class="cursor__dot"></span>
+    <span class="cursor__ring"></span>
+  </div>
+
+  <div class="bg" aria-hidden="true">
+    <div class="bg__noise"></div>
+    <div class="bg__grid"></div>
+    <div class="bg__blob bg__blob--1"></div>
+    <div class="bg__blob bg__blob--2"></div>
+    <div class="bg__blob bg__blob--3"></div>
+    <div class="bg__light"></div>
+    <canvas id="particles" class="bg__particles"></canvas>
+  </div>
+
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a class="nav__logo" href="#home" aria-label="Sanjid Hasan home">
+        <span>SANJID</span>
+        <span class="nav__logo-dot"></span>
+        <span>HASAN</span>
+      </a>
+      <nav class="nav__links" id="nav-links" aria-label="Primary">
+        <a href="#home" data-section="home">Home</a>
+        <a href="#about" data-section="about">About</a>
+        <a href="#skills" data-section="skills">Skills</a>
+        <a href="#services" data-section="services">Services</a>
+        <a href="#portfolio" data-section="portfolio">Portfolio</a>
+        <a href="#socials" data-section="socials">Socials</a>
+        <a href="#projects" data-section="projects">Projects</a>
+        <a href="#contact" data-section="contact">Contact</a>
+      </nav>
+      <button class="nav__toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-drawer" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="nav-drawer" id="nav-drawer" hidden>
+    <nav class="nav-drawer__links" aria-label="Mobile">
+      <a href="#home" data-section="home">Home</a>
+      <a href="#about" data-section="about">About</a>
+      <a href="#skills" data-section="skills">Skills</a>
+      <a href="#what-i-do" data-section="what-i-do">What I Do</a>
+      <a href="#portfolio" data-section="portfolio">Portfolio</a>
+      <a href="#socials" data-section="socials">Socials</a>
+      <a href="#projects" data-section="projects">Projects</a>
+      <a href="#services" data-section="services">Services</a>
+      <a href="#contact" data-section="contact">Contact</a>
+    </nav>
+  </div>
+  <div class="nav-overlay" id="nav-overlay" hidden></div>
+
+  <main>
+    <section class="hero" id="home">
+      <p class="hero__watermark" aria-hidden="true">HASAN</p>
+      <div class="hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow reveal">Based in Bangladesh</p>
+          <h1 class="hero__title">
+            <span class="reveal-line"><span>Hi, I'm</span></span>
+            <span class="reveal-line"><span class="hero__name" data-config="name">Sanjid Hasan</span></span>
+          </h1>
+          <p class="hero__roles reveal" data-config="roles">Graphic Designer • Photographer • Videographer • Content Creator</p>
+          <p class="hero__lead reveal" data-config="tagline">Creative visual storyteller focused on photography, videography, graphic design and digital content.</p>
+          <div class="hero__actions reveal">
+            <a class="btn btn--gold" href="#portfolio">Explore My Work</a>
+            <a class="btn btn--ghost" href="#contact">Let's Connect</a>
+          </div>
+        </div>
+        <div class="hero__portrait reveal">
+          <div class="portrait">
+            <div class="portrait__ring"></div>
+            <img data-config="photo" src="https://i.imgur.com/WrZEXa4.png" alt="Portrait of Sanjid Hasan" width="520" height="640">
+          </div>
+        </div>
+      </div>
+      <a class="scroll-hint" href="#about">
+        <span>Scroll to Explore</span>
+        <span class="scroll-hint__arrow" aria-hidden="true">↓</span>
+      </a>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section__head">
+        <p class="eyebrow">01 — Introduction</p>
+        <h2>About Me</h2>
+      </div>
+      <div class="about">
+        <div class="about__photo reveal">
+          <img data-config="photo" src="https://i.imgur.com/WrZEXa4.png" alt="Sanjid Hasan, photographer and designer" loading="lazy">
+          <span class="about__caption">Behind the lens</span>
+        </div>
+        <div class="about__body">
+          <p class="about__kicker reveal">A quiet obsession with light, motion and detail.</p>
+          <p class="reveal" data-config="bio"></p>
+          <p class="reveal" data-config="bio2"></p>
+          <dl class="about__meta reveal">
+            <div><dt>Name</dt><dd data-config="name">Sanjid Hasan</dd></div>
+            <div><dt>Location</dt><dd data-config="location">Bangladesh</dd></div>
+            <div><dt>Profession</dt><dd data-config="profession">Graphic Designer, Photographer & Videographer</dd></div>
+            <div><dt>Interests</dt><dd data-config="interests">Photography, Videography, Cars, Design, Technology and Content Creation</dd></div>
+            <div><dt>Focus</dt><dd data-config="focus">Cinematic stills, automotive media and brand-led visual content</dd></div>
+          </dl>
+        </div>
+      </div>
+      <div class="stats" id="stats">
+        <article class="stat">
+          <p class="stat__num"><span data-count="100">0</span>+</p>
+          <p class="stat__label">Projects</p>
+        </article>
+        <article class="stat">
+          <p class="stat__num">∞</p>
+          <p class="stat__label">Photography &amp; Videography</p>
+        </article>
+        <article class="stat">
+          <p class="stat__num"><span data-count="8">0</span>+</p>
+          <p class="stat__label">Creative Design</p>
+        </article>
+        <article class="stat">
+          <p class="stat__num">24/7</p>
+          <p class="stat__label">Digital Content</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section__head">
+        <p class="eyebrow">02 — Craft</p>
+        <h2>Skills</h2>
+        <p class="section__intro">The tools and instincts I bring to every frame, edit and layout.</p>
+      </div>
+      <div class="skills" id="skills-grid"></div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Photography</span><span>Videography</span><span>Graphic Design</span><span>Automotive</span><span>Editing</span><span>Branding</span>
+        <span>Photography</span><span>Videography</span><span>Graphic Design</span><span>Automotive</span><span>Editing</span><span>Branding</span>
+      </div>
+    </div>
+
+    <section class="section" id="what-i-do">
+      <div class="section__head">
+        <p class="eyebrow">03 — Practice</p>
+        <h2>What I Do</h2>
+        <p class="section__intro">From stills to motion, I build visuals that feel considered, cinematic and useful for real brands.</p>
+      </div>
+      <div class="work" id="work-grid"></div>
+    </section>
+
+    <section class="section" id="portfolio">
+      <div class="section__head">
+        <p class="eyebrow">04 — Selected Work</p>
+        <h2>Portfolio</h2>
+        <p class="section__intro">A mix of photography, motion, design and automotive work. Replace these placeholders with your own set.</p>
+      </div>
+      <div class="filters" id="filters" role="tablist" aria-label="Portfolio categories"></div>
+      <div class="gallery" id="gallery"></div>
+    </section>
+
+    <section class="section" id="socials">
+      <div class="section__head">
+        <p class="eyebrow">05 — Presence</p>
+        <h2>Find Me Online</h2>
+        <p class="section__intro">Follow the work as it happens — stills, reels, process and conversation.</p>
+      </div>
+      <div class="socials" id="socials-grid"></div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section__head">
+        <p class="eyebrow">06 — Digital</p>
+        <h2>My Websites &amp; Projects</h2>
+        <p class="section__intro">Online platforms and experiments. Update titles, links and thumbnails in the JavaScript config.</p>
+      </div>
+      <div class="projects" id="projects-grid"></div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="section__head">
+        <p class="eyebrow">07 — Collaborate</p>
+        <h2>Services</h2>
+        <p class="section__intro">Clear offerings for brands, creators and anyone who needs images that hold up in daylight and on a phone.</p>
+      </div>
+      <div class="services" id="services-grid"></div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="section__head">
+        <p class="eyebrow">08 — Contact</p>
+        <h2>Let's Create Something Great</h2>
+        <p class="section__intro">Tell me about the shoot, the brand, or the idea sitting in your notes. I read everything.</p>
+      </div>
+      <div class="contact">
+        <div class="contact__info">
+          <a class="contact__item" data-contact="email" href="mailto:hello@sanjidhasan.com">
+            <i data-lucide="mail"></i>
+            <div>
+              <span>Email</span>
+              <strong data-config="email">hello@sanjidhasan.com</strong>
+            </div>
+          </a>
+          <a class="contact__item" data-contact="phone" href="tel:+8801000000000">
+            <i data-lucide="phone"></i>
+            <div>
+              <span>Phone</span>
+              <strong data-config="phone">+880 1XXX-XXXXXX</strong>
+            </div>
+          </a>
+          <a class="contact__item" data-contact="facebook" href="#" target="_blank" rel="noopener noreferrer">
+            <i data-lucide="facebook"></i>
+            <div>
+              <span>Facebook</span>
+              <strong>Message me</strong>
+            </div>
+          </a>
+          <a class="contact__item" data-contact="instagram" href="#" target="_blank" rel="noopener noreferrer">
+            <i data-lucide="instagram"></i>
+            <div>
+              <span>Instagram</span>
+              <strong>@sanjidul_haque</strong>
+            </div>
+          </a>
+          <a class="contact__item" data-contact="discord" href="#" target="_blank" rel="noopener noreferrer">
+            <i data-lucide="message-circle"></i>
+            <div>
+              <span>Discord</span>
+              <strong>Join the server</strong>
+            </div>
+          </a>
+        </div>
+        <form class="form" id="contact-form" novalidate>
+          <div class="form__row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required placeholder="Your name">
+            <span class="form__error" data-error="name"></span>
+          </div>
+          <div class="form__row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required placeholder="you@email.com">
+            <span class="form__error" data-error="email"></span>
+          </div>
+          <div class="form__row">
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text" required placeholder="What’s this about?">
+            <span class="form__error" data-error="subject"></span>
+          </div>
+          <div class="form__row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required placeholder="Tell me about the project, timeline and how you found me."></textarea>
+            <span class="form__error" data-error="message"></span>
+          </div>
+          <button class="btn btn--gold" type="submit">Send Message</button>
+          <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__top">
+      <div>
+        <p class="footer__name">SANJID HASAN</p>
+        <p class="footer__tag">Creative mind behind the lens and screen.</p>
+      </div>
+      <nav class="footer__nav" aria-label="Footer">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer__socials" id="footer-socials"></div>
+    </div>
+    <p class="footer__copy">© 2026 Sanjid Hasan. All rights reserved.</p>
+  </footer>
+
+  <div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-labelledby="lb-title">
+    <button class="lightbox__close" type="button" aria-label="Close project">×</button>
+    <button class="lightbox__nav lightbox__nav--prev" type="button" aria-label="Previous project">‹</button>
+    <button class="lightbox__nav lightbox__nav--next" type="button" aria-label="Next project">›</button>
+    <div class="lightbox__panel">
+      <img id="lb-image" alt="">
+      <div class="lightbox__meta">
+        <p class="lightbox__cat" id="lb-cat"></p>
+        <h3 id="lb-title"></h3>
+        <p id="lb-desc"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
