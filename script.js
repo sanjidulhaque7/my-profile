@@ -63,12 +63,13 @@ const siteConfig = {
 
   /* Replace image URLs with files in assets/images/ when ready */
   portfolio: [
+    { title: "Quiet Hour", category: "Photography", image: "http", desc: "Po" },
     { title: "Neon Transit", category: "Photography", image: "https://i.pinimg.com/1200x/d7/fd/70/d7fd70e3f239e98c1b278c06d5e4315d.jpg", desc: "A long-exposure street photography shot capturing the energy of a bustling city at night." },
     { title: "Quiet Hour", category: "Photography", image: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=900&q=80", desc: "Portrait work built on patience — skin, shadow and a face that is not performing." },
     { title: "Studio Grain", category: "Photography", image: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1400&q=80", desc: "Hands, camera and the room around the shot. Process as the picture." },
     { title: "Brand Mark", category: "Graphic Design", image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1200&q=80", desc: "Identity work: type, space and a mark that can live on a phone and on a wall." },
     { title: "Coast Road", category: "Automotive", image: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1400&q=80", desc: "Daylight automotive stills — stance, colour and the landscape doing half the work." },
-    { title: "Reel Cut", category: "Videography", image: "https://images.unsplash.com/photo-1574717024653-61fd2cf4dcd2?auto=format&fit=crop&w=1200&q=80", desc: "Short-form motion with a cinematic grade. Built to stop a thumb." },
+    { title: "Reel Cut", category: "Videography", image: "https://pin.it/67GQguEWd", desc: "Short-form motion with a cinematic grade. Built to stop a thumb." },
     { title: "Feed System", category: "Social Media", image: "https://images.unsplash.com/photo-1611162616475-46b635cb6868?auto=format&fit=crop&w=1200&q=80", desc: "A visual grid for social — consistent crops, type and colour so the profile feels like a studio." },
     { title: "After Hours", category: "Photography", image: "https://images.unsplash.com/photo-1471341971476-ae15ff5dd4ea?auto=format&fit=crop&w=1200&q=80", desc: "Practical lights, haze and a frame that feels like a still from a film." },
     { title: "Type & Paper", category: "Graphic Design", image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=1200&q=80", desc: "Poster and print explorations. Physical objects, not just files." }
