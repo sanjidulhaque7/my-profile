@@ -63,7 +63,7 @@ const siteConfig = {
 
   /* Replace image URLs with files in assets/images/ when ready */
   portfolio: [
-    { title: "Midnight Line", category: "Automotive", image: "https://i.pinimg.com/1200x/d7/fd/70/d7fd70e3f239e98c1b278c06d5e4315d.jpg", desc: "Low light, wet asphalt and a body that reads like sculpture. A study in reflections." },
+    { title: "Neon Transit", category: "Photography", image: "https://i.pinimg.com/1200x/d7/fd/70/d7fd70e3f239e98c1b278c06d5e4315d.jpg", desc: "A long-exposure street photography shot capturing the energy of a bustling city at night." },
     { title: "Quiet Hour", category: "Photography", image: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=900&q=80", desc: "Portrait work built on patience — skin, shadow and a face that is not performing." },
     { title: "Studio Grain", category: "Photography", image: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1400&q=80", desc: "Hands, camera and the room around the shot. Process as the picture." },
     { title: "Brand Mark", category: "Graphic Design", image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1200&q=80", desc: "Identity work: type, space and a mark that can live on a phone and on a wall." },
