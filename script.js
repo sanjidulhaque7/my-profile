@@ -65,6 +65,7 @@ const siteConfig = {
   portfolio: [
     { title: "Tea Stall", category: "Photography", image: "https://i.pinimg.com/736x/e5/f9/75/e5f9755c9ce6b2a2af7c4bb17ee36550.jpg", desc: "Nestled directly beneath the tree is a small, traditional roadside shop made of corrugated tin, wood, and thatch" },
     { title: "Neon Transit", category: "Photography", image: "https://i.pinimg.com/1200x/d7/fd/70/d7fd70e3f239e98c1b278c06d5e4315d.jpg", desc: "A long-exposure street photography shot capturing the energy of a bustling city at night." },
+    { title: "Flock of Ducks", category: "Photography", image:"https://i.pinimg.com/736x/4d/78/ee/4d78ee9fda7dc989843682ac27816772.jpg", desc: "A group of ducks with various plumage colors—white, brown, and black-and-white—is swimming together in a natural pond or stream, catching the warm sunlight." },
     { title: "Quiet Hour", category: "Photography", image: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=900&q=80", desc: "Portrait work built on patience — skin, shadow and a face that is not performing." },
     { title: "Studio Grain", category: "Photography", image: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1400&q=80", desc: "Hands, camera and the room around the shot. Process as the picture." },
     { title: "Brand Mark", category: "Graphic Design", image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1200&q=80", desc: "Identity work: type, space and a mark that can live on a phone and on a wall." },
@@ -86,7 +87,7 @@ const siteConfig = {
      Formspree example: "https://formspree.io/f/xxxxxx"
      EmailJS: handle in onSubmit yourself. */
   formEndpoint: ""
-};
+};               
 
 /* ============================================================
    RENDER
