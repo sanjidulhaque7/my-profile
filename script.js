@@ -18,7 +18,7 @@ const siteConfig = {
   facebook: "https://www.facebook.com/share/1Cd28FDdFn/",
   instagram: "https://www.instagram.com/sanjidul_haque/",
   youtube: "https://www.youtube.com/@SanjidHasan0",
-  tiktok: "https://discord.gg/",
+  tiktok: "https://i.pinimg.com/1200x/62/a7/6a/62a76a09cdfa54e69d0188de2c63cb48.jpg",
   discord: "https://discord.gg/WcqbrS77Mm",
   linkedin: "https://www.linkedin.com/in/sanjid-hasan-b62754357/",
 
