@@ -92,7 +92,8 @@ const siteConfig = {
     { title: "Subject Matter", category: "Automotive", image: "https://i.pinimg.com/736x/3d/13/b8/3d13b874abfa5e246821526731b2ea5d.jpg", desc: "A modified white BMW M4 fitted with an aggressive widebody kit, carbon front splitters, dark multi-spoke wheels, and a prominent rear wing, angled steeply as if falling through the sky." },
     { title: "Rolls-Royce", category: "Automotive", image: "https://i.pinimg.com/736x/23/05/75/230575e5d3f685fecaee7694443ee76d.jpg", desc: "Gloss black Rolls-Royce Phantom featuring a polished chrome Pantheon grille and matching dark multi-spoke rims." },
      
-    { title: "Reel Cut", category: "Videography", image: "https://pin.it/67GQguEWd", desc: "Short-form motion with a cinematic grade. Built to stop a thumb." },
+    { title: "Sony A7", category: "Videography", image: "https://imgur.com/a/mykKmkQ", desc: "Cinematic 3D motion design featuring Sony A7 III camera in an exploded view." },
+     
     { title: "Feed System", category: "Social Media", image: "https://images.unsplash.com/photo-1611162616475-46b635cb6868?auto=format&fit=crop&w=1200&q=80", desc: "A visual grid for social — consistent crops, type and colour so the profile feels like a studio." },
     { title: "After Hours", category: "Photography", image: "https://images.unsplash.com/photo-1471341971476-ae15ff5dd4ea?auto=format&fit=crop&w=1200&q=80", desc: "Practical lights, haze and a frame that feels like a still from a film." },
     { title: "Type & Paper", category: "Graphic Design", image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=1200&q=80", desc: "Poster and print explorations. Physical objects, not just files." }
