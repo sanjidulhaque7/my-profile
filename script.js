@@ -3,7 +3,7 @@
    ============================================================ */
 const siteConfig = {
   name: "Sanjid Hasan",
-  photo: "https://i.imgur.com/zIkLYYy.jpg",
+  photo: "https://imgur.com/a/1RZafSn.jpg",
   location: "Bangladesh",
   profession: "Graphic Designer, Photographer & Videographer",
   roles: "Graphic Designer • Photographer • Videographer • Content Creator",
